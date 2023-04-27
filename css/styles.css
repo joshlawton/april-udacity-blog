@@ -1,0 +1,70 @@
+@import "reset.css";
+@import "layout.css";
+@import "typography.css";
+
+body {
+  background-color: #0b0b0b;
+  color: #333;
+  margin: 0;
+  font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.logo {
+  font-size: 200%;
+  padding: 50px 20px;
+  margin: 0 auto;
+  max-width: 980px;
+}
+
+.grid {
+  margin: 0 auto;
+  padding: 0 20px;
+  max-width: 980px;
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+}
+
+nav {
+  background-color: #3b1624;
+  padding: 0.5em;
+  top: 0;
+  position: sticky;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a {
+  color: #b1436c;
+  text-decoration: none;
+  padding: 0.5em 1em;
+}
+
+.photos {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.feature {
+  width: 200px;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+h2 {
+  color: #853251;
+}
