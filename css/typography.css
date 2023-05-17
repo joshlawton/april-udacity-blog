@@ -1,0 +1,38 @@
+blockquote {
+  font-style: italic;
+  border-left: 6px solid var(--primary-color-darker);
+  padding-left: 15px;
+}
+
+figcaption {
+  font-size: 0.87rem;
+  padding: 3px 3px 0;
+  color: var(--accent-color);
+  font-weight: bold;
+  font-style: italic;
+}
+
+h1 {
+  color: var(--primary-color);
+}
+
+h2 {
+  color: var(--primary-color-darker);
+}
+
+.featured-articles article a {
+  display: inline-block;
+  background-color: var(--primary-color-darker);
+  color: var(--secondary-color);
+  text-decoration: none;
+  padding: 4px 13px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.featured-articles h3 {
+  font-size: 30px;
+  font-family: cursive;
+  color: var(--accent-color);
+  margin: 15px 0 -10px;
+}
