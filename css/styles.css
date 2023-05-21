@@ -90,10 +90,13 @@ h2 {
 
 footer {
   border-top: 1px solid var(--dark-primary-color);
+  display:grid;
+  gap: 5px;
+  padding: 5px;
 }
 
 footer > ul {
-  position: sticky;
+  position:sticky;
   list-style: none;
 }
 
