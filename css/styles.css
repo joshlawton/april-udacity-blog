@@ -72,6 +72,8 @@ nav a {
   display: grid;
   gap: 5px;
   grid-template-columns: 1fr 1fr;
+  min-width: 150px;
+  max-width: 300px;
 }
 
 .feature {
