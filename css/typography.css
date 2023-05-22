@@ -67,3 +67,9 @@ h2 {
   margin: 1.5%;
   color:var(--accent-color)
 }
+.readmore{
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  border-radius: 15px;
+}
