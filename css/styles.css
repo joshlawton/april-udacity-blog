@@ -1,6 +1,8 @@
 @import "reset.css";
 @import "layout.css";
 @import "typography.css";
+@import "fontawesome.min.css";
+@import "brands.min.css";
 
 :root {
   --primary-color: pink;
@@ -95,15 +97,15 @@ footer {
   padding: 10px;
 }
 
-footer>ul {
+footer > ul {
   position: sticky;
-  list-style:none;
+  list-style: none;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
   gap: 50px;
   background: var(--primary-color);
-  padding:20px;
+  padding: 20px;
   width: fit-content;
   block-size: fit-content;
 }
@@ -140,7 +142,7 @@ a[href="#top"]:hover {
   padding-top: calc(100% * (100 / 270));
 }
 
-.aspect-ratio>img {
+.aspect-ratio > img {
   display: block;
   position: absolute;
   top: 0;
