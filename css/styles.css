@@ -153,6 +153,10 @@ a[href="#top"]:hover {
   object-fit: cover;
 }
 
+main > article {
+  padding: 0 0.5rem;
+}
+
 footer a {
   padding: 15px;
   gap: 10px;
