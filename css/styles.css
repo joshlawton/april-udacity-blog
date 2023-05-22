@@ -164,4 +164,10 @@ footer a {
   flex-wrap: wrap;
   text-align: center;
   height: fit-content;
+  text-decoration: none;
+}
+
+footer i {
+  display: inline-block;
+  padding-right: 2px;
 }
