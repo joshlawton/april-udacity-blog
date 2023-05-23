@@ -94,22 +94,22 @@ h2 {
 
 footer {
   border-top: 1px solid var(--dark-primary-color);
-  display: grid;
-  gap: 5px;
   padding: 10px;
 }
 
 footer > ul {
-  position: sticky;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
   text-align: center;
   gap: 50px;
-  background: var(--primary-color);
   padding: 20px;
   width: fit-content;
   block-size: fit-content;
+}
+
+footer li {
+  display: inline-flex;
 }
 
 footer button {
@@ -157,6 +157,17 @@ main > article {
   padding: 0 0.5rem;
 }
 
+footer {
+  display: flex;
+  background-color: var(--secondary-color);
+}
+
+footer ul {
+  display: flex;
+  flex: auto;
+  justify-content: center;
+}
+
 footer a {
   padding: 15px;
   gap: 10px;
@@ -169,6 +180,7 @@ footer a {
   text-align: center;
   height: fit-content;
   text-decoration: none;
+  border-radius: 4px;
 }
 
 footer i {
