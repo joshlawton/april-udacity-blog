@@ -1,0 +1,44 @@
+/**
+ * Only styles focusing on the page footer should appear here.
+ * Styles affecting article footers should go elsewhere.
+ */
+
+footer {
+  background-color: var(--primary-color-darker);
+  border-top: 1px solid var(--dark-primary-color);
+  padding: 10px;
+}
+
+footer > ul {
+  margin: 0 auto 15px;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 15px 32px;
+  background-color: var(--primary-color-darker);
+}
+
+footer a {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  footer {
+    padding-top: 15px;
+  }
+
+  footer > ul {
+    gap: 15px 50px;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  footer > ul {
+    margin-bottom: 25px;
+  }
+}
