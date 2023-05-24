@@ -130,3 +130,7 @@ main > article {
 article p {
   margin: 10px;
 }
+
+body > header {
+  background-color: var(--logo-color);
+}
