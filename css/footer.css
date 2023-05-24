@@ -9,7 +9,6 @@ footer {
 }
 
 footer > ul {
-  position: sticky;
   list-style: none;
   display: flex;
   flex-wrap: wrap;
