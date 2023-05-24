@@ -126,3 +126,13 @@ article p {
 body > header {
   background-color: var(--logo-color);
 }
+
+body > header img {
+  max-width: 9rem;
+}
+
+@media screen and (min-width: 1200px) {
+  body > header img {
+    max-width: 11rem;
+  }
+}
