@@ -24,45 +24,16 @@ body {
 }
 
 img {
-  width: 100%;
-  height: 300%;
+  max-width: 100%;
   display: block;
 }
 
-@keyframes FadeInOut {
-  0% {
-    opacity: 1;
-  }
-
-  25% {
-    opacity: .75;
-  }
-
-  50% {
-    opacity: .5;
-  }
-
-  100% {
-    opacity: 0;
-  }
-}
-
-#fading img {
-  position: absolute;
-  left: 0;
-}
-
-#fading img.top {
-  -webkit-animation-name: FadeInOut;
-          animation-name: FadeInOut;
-  -webkit-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-  -webkit-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-  -webkit-animation-duration: 10s;
-          animation-duration: 10s;
-  -webkit-animation-direction: alternate;
-          animation-direction: alternate;
+.logo {
+  font-size: 200%;
+  font-family: cursive;
+  padding: 50px 20px;
+  margin: 0 auto;
+  max-width: 980px;
 }
 
 .grid {
@@ -79,7 +50,6 @@ nav {
   background-color: var(--primary-color-darker);
   padding: 0.5em;
   top: 0;
-  position: -webkit-sticky;
   position: sticky;
   z-index: 100;
 }
@@ -102,7 +72,7 @@ nav a {
 
 .photos {
   list-style: none;
-  margin: 10px;
+  margin: 0;
   padding: 0;
   display: grid;
   gap: 5px;
@@ -144,56 +114,33 @@ a[href="#top"]:hover {
   padding-top: calc(100% * (100 / 270));
 }
 
-.aspect-ratio>img {
+.aspect-ratio > img {
   display: block;
   position: absolute;
   top: 0;
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
-main>article {
+main > article {
   padding: 0 0.5rem;
 }
 
 article p {
   margin: 10px;
-  text-indent: 2em;
 }
 
-body>header {
+body > header {
   background-color: var(--logo-color);
 }
 
-body>header img {
+body > header img {
   max-width: 9rem;
 }
 
 @media screen and (min-width: 1200px) {
-  body>header img {
+  body > header img {
     max-width: 11rem;
   }
-}
-
-article {
-  margin: 15px;
-  font-family: 'Times New Roman', Times, serif;
-}
-
-.sd h2 {
-  margin-left: 15px;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
-}
-
-.hover_effect {
-  height: 75%;
-  width: auto;
-}
-
-.hover_effect:hover {
-  height: 150%;
-  width: auto;
 }
