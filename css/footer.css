@@ -4,6 +4,7 @@
  */
 
 footer {
+  background-color: var(--primary-color-darker);
   border-top: 1px solid var(--dark-primary-color);
   padding: 10px;
 }
