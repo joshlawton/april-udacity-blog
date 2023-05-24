@@ -98,7 +98,7 @@ footer {
   padding: 10px;
 }
 
-footer > ul {
+footer>ul {
   position: sticky;
   list-style: none;
   display: flex;
@@ -108,19 +108,11 @@ footer > ul {
   padding: 20px;
   width: fit-content;
   block-size: fit-content;
+  background-color: var(--primary-color-darker);
 }
 
 footer li {
   display: inline-flex;
-}
-
-footer button {
-  padding: 1em;
-  gap: 20px;
-  /* background-color: #3b1624; */
-  background-color: var(--primary-color-darker);
-  /* color: #b1436c; */
-  color: var(--secondary-color);
 }
 
 a[href="#top"] {
@@ -146,7 +138,7 @@ a[href="#top"]:hover {
   padding-top: calc(100% * (100 / 270));
 }
 
-.aspect-ratio > img {
+.aspect-ratio>img {
   display: block;
   position: absolute;
   top: 0;
@@ -155,13 +147,14 @@ a[href="#top"]:hover {
   object-fit: cover;
 }
 
-main > article {
+main>article {
   padding: 0 0.5rem;
 }
 
 footer a {
-  padding: 15px;
-  gap: 10px;
+  padding: 5px;
+  gap: 20px;
+  margin: 5px;
   /* background-color: #3b1624; */
   background-color: var(--primary-color-darker);
   /* color: #b1436c; */
