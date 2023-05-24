@@ -166,3 +166,7 @@ footer a {
   text-decoration: none;
   border-radius: 4px;
 }
+
+article p {
+  margin: 10px;
+}
