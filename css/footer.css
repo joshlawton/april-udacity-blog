@@ -12,10 +12,10 @@ footer {
 footer > ul {
   list-style: none;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
   text-align: center;
-  gap: 50px;
-  padding: 20px;
+  gap: 36px;
   width: fit-content;
   block-size: fit-content;
   background-color: var(--primary-color-darker);
@@ -39,6 +39,12 @@ footer a {
   height: fit-content;
   text-decoration: none;
   border-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  footer > ul {
+    gap: 50px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
