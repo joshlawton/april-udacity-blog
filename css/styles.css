@@ -28,14 +28,6 @@ img {
   display: block;
 }
 
-.logo {
-  font-size: 200%;
-  font-family: cursive;
-  padding: 50px 20px;
-  margin: 0 auto;
-  max-width: 980px;
-}
-
 .grid {
   margin: 0 auto;
   padding: 0 20px;
