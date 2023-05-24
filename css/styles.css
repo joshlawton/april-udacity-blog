@@ -86,10 +86,6 @@ nav a {
   margin: 0 20px 20px 0;
 }
 
-h2 {
-  color: var(--accent-color);
-}
-
 @media (prefers-color-scheme: dark) {
   /** Dark theme overrides */
 }
