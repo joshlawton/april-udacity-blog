@@ -170,3 +170,6 @@ footer a {
 article p {
   margin: 10px;
 }
+.ft{
+  background-color: var(--primary-color-darker);
+}
