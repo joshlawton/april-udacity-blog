@@ -10,6 +10,7 @@ figcaption {
   color: var(--accent-color);
   font-weight: bold;
   font-style: italic;
+  text-indent: 40em;
 }
 
 h1 {
