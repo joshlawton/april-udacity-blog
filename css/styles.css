@@ -114,7 +114,7 @@ a[href="#top"]:hover {
   padding-top: calc(100% * (100 / 270));
 }
 
-.aspect-ratio > img {
+.aspect-ratio>img {
   display: block;
   position: absolute;
   top: 0;
@@ -123,7 +123,7 @@ a[href="#top"]:hover {
   object-fit: cover;
 }
 
-main > article {
+main>article {
   padding: 0 0.5rem;
 }
 
@@ -131,16 +131,26 @@ article p {
   margin: 10px;
 }
 
-body > header {
+body>header {
   background-color: var(--logo-color);
 }
 
-body > header img {
+body>header img {
   max-width: 9rem;
 }
 
 @media screen and (min-width: 1200px) {
-  body > header img {
+  body>header img {
     max-width: 11rem;
   }
+}
+
+.hover_effect {
+  height: 25%;
+  width: auto;
+}
+
+.hover_effect:hover {
+  height: 100%;
+  width: auto;
 }
