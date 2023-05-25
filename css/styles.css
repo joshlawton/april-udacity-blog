@@ -159,6 +159,12 @@ body>header img {
 }
 
 .sd h2 {
-  margin-left: 10px;
+  margin-left: 12px;
   text-decoration: underline;
+}
+.main h3 {
+  margin-left: 1em;
+}
+.featured-articles a {
+  margin-left: 1em;
 }
