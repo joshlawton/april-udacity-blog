@@ -27,6 +27,15 @@ img {
   display: block;
 }
 
+.logo {
+  font-size: 200%;
+  font-family: cursive;
+  padding: 50px 20px;
+  margin: 0 auto;
+  max-width: 980px;
+  display: inline;
+}
+
 .grid {
   margin: 0 auto;
   padding: 0 20px;
@@ -63,13 +72,14 @@ nav a {
 
 .photos {
   list-style: none;
-  margin: 0;
+  margin: 10px;
   padding: 0;
   display: grid;
-  gap: 5px;
+  gap: 0;
   grid-template-columns: 1fr 1fr;
   min-width: 150px;
   max-width: 300px;
+  background-color: var(--primary-color);
 }
 
 .feature {
@@ -99,19 +109,21 @@ a[href="#top"]:hover {
   width: 100%;
   height: 0;
   padding-top: calc(100% * (100 / 170));
+  margin-top: .1rem;
 }
 
 .featured-articles .aspect-ratio {
   padding-top: calc(100% * (100 / 270));
 }
 
-.aspect-ratio > img {
+.aspect-ratio>img {
   display: block;
   position: absolute;
   top: 0;
-  width: 100%;
-  height: 100%;
   object-fit: cover;
+  width: 60%;
+  height: 100%;
+  padding-left: 21%;
 }
 
 .featured-articles > article + article {
@@ -136,13 +148,14 @@ main > article {
 
 article p {
   margin: 10px;
+  text-indent: 2em;
 }
 
-body > header {
+body>header {
   background-color: var(--logo-color);
 }
 
-body > header img {
+body>header img {
   max-width: 9rem;
 }
 
@@ -171,7 +184,32 @@ body > header img {
 }
 
 @media screen and (min-width: 1200px) {
-  body > header img {
+  body>header img {
     max-width: 11rem;
   }
+}
+
+.hover_effect {
+  height: 25%;
+  width: auto;
+}
+
+.hover_effect:hover {
+  height: 100%;
+  width: auto;
+}
+
+.sd h2 {
+  margin-left: 12px;
+  text-decoration: underline;
+}
+
+.main h3 {
+  margin-left: 1em;
+  margin-bottom: 2px;
+  font-size: 20px;
+}
+
+.featured-articles a {
+  margin-left: 1em;
 }
