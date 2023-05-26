@@ -1,8 +1,7 @@
 @import "reset.css";
 @import "layout.css";
 @import "typography.css";
-@import "fontawesome.min.css";
-@import "brands.min.css";
+@import "all.min.css";
 @import "footer.css";
 
 :root {
@@ -115,6 +114,22 @@ a[href="#top"]:hover {
   object-fit: cover;
 }
 
+.featured-articles > article + article {
+  margin-top: 3vh;
+}
+
+.featured-articles > article h3 {
+  margin: 13px 5px 1rem;
+}
+
+.featured-articles > article p {
+  margin: 0 5px;
+}
+
+.featured-articles > article a {
+  margin: 0.75rem 5px 0;
+}
+
 main > article {
   padding: 0 0.5rem;
 }
@@ -129,6 +144,30 @@ body > header {
 
 body > header img {
   max-width: 9rem;
+}
+
+@media screen and (min-width: 768px) {
+  .featured-articles {
+    display: flex;
+    max-width: 80vw;
+    margin: 5vh auto 0;
+    gap: 2em;
+  }
+
+  .featured-articles > article {
+    flex: 1;
+  }
+
+  .featured-articles > article + article {
+    margin-top: 0;
+  }
+
+  .featured-articles > article h3,
+  .featured-articles > article p,
+  .featured-articles > article a {
+    margin-left: 0;
+    margin-right: 0;
+  }
 }
 
 @media screen and (min-width: 1200px) {
