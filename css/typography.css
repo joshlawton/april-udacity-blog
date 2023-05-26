@@ -1,7 +1,7 @@
 blockquote {
   font-style: italic;
   border-left: 6px solid var(--primary-color-darker);
-  padding-left: 15px;
+  padding-left: 10px;
 }
 
 figcaption {
@@ -9,8 +9,7 @@ figcaption {
   padding: 3px 3px 0;
   color: var(--accent-color);
   font-weight: bold;
-  font-style: italic;
-  text-indent: 40em;
+  text-indent: inherit;
 }
 
 h1 {
@@ -30,7 +29,6 @@ h2 {
   text-decoration: none;
   padding: 4px 13px;
   border-radius: 3px;
-  font-weight: bold;
 }
 
 .featured-articles h3 {
